@@ -19,8 +19,8 @@ Mytests >> testPaperAgainstScissorsIsScissors [
 
 	| p p1 |
 	p := Paper new.
-	p1 := Paper new.
-	self assert: ( p vs: p1 )equals: 'draw'
+	p1 := Scissors new.
+	self assert: (p vs: p1) equals: 'scissors'
 ]
 
 { #category : 'tests' }
